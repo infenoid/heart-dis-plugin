@@ -20,9 +20,6 @@ Gives the target player Herobrine powers for a short duration.
 
 Removes Herobrine powers immediately.
 
-## 🔧 Configuration
-Edit `plugins/HerobrinePowers/config.yml` to tweak durations and effects.
-
 ## 🔒 Permissions
 | Node                          | Default |
 |-------------------------------|:-------:|
