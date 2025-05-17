@@ -1,0 +1,5 @@
+name: Hearts
+version: '1.0'
+main: org.local.test.Hearts
+api-version: '1.21'
+author: JstSatwik21w
