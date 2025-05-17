@@ -1,33 +1,32 @@
-# HerobrinePowers
+# HeartDis
 
-> Summon the legend: grant players spooky, Herobrine‑style abilities.
+> Display player health (HP) directly above their head — a lightweight, no‑dependencies Minecraft plugin.
+
+![In‑game screenshot showing health above player heads](assets/preview.png)
 
 ## 📦 Features
-- Night vision and lightning strikes  
-- Random world events (e.g. redstone flicker)  
-- “Possess” nearby mobs briefly  
+
+- **Real‑time health display**  
+  Shows each player’s current health (❤/HP) as floating text above their head.  
+- **Lightweight & fast**  
+  Minimal performance overhead, compatible with most Spigot/Paper versions.  
+- **Customizable appearance**  
+  Configure text color, position offset, and update interval.
 
 ## 🚀 Installation
-1. Copy the JAR to `/plugins`.  
-2. Restart the server.
 
-## ⚙️ Commands
-/herobrine summon <player>
-Gives the target player Herobrine powers for a short duration.
-
-/herobrine revoke <player>
-
-
-Removes Herobrine powers immediately.
+1. Download the latest `heart-dis-plugin.jar` from the [Releases](https://github.com/infenoid/heart-dis-plugin/releases).  
+2. Place the JAR into your server’s `/plugins` folder.  
+3. Restart or reload the server:
+   ```shell
+   # In‑game or console
+   /reload
 
 ## 🔒 Permissions
-| Node                          | Default |
-|-------------------------------|:-------:|
-| `herobrine.summon`            | `op`    |
-| `herobrine.revoke`            | `op`    |
-
-## 🤝 Contributing
-*(Same as above.)*
+| Permission             | Description                            | Default |
+| ---------------------- | -------------------------------------- | :-----: |
+| `heartdis.view.self`   | See your own health above your head    |   `op`  |
+| `heartdis.view.others` | See other players’ health (if enabled) |   `op`  |
 
 ## 📄 License
-Apache 2.0
+Apache 2.0 License.
